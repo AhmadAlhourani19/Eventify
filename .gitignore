@@ -1,4 +1,3 @@
-# --- OS / Editor junk ---
 .DS_Store
 Thumbs.db
 *.swp
@@ -9,23 +8,15 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 
-# --- Node / package managers ---
 **/node_modules/
 **/.pnp
 **/.pnp.js
 
-# lockfiles (keep exactly one; comment out the one you DON’T use)
-# yarn.lock
-# pnpm-lock.yaml
-# npm-shrinkwrap.json
-
-# --- Env secrets ---
 .env
 .env.*
 !.env.example
 !.env.sample
 
-# --- Logs & diagnostics ---
 **/logs/
 **/*.log
 npm-debug.log*
@@ -34,7 +25,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# --- Coverage & test outputs ---
 coverage/
 **/coverage/
 .nyc_output/
@@ -43,17 +33,13 @@ jest-cache/
 jest-html-reporters-*.html
 test-results.xml
 
-# --- Build artifacts ---
 dist/
 **/dist/
 build/
 **/build/
-# React (CRA) build
 frontend/build/
-# TypeScript build cache
 *.tsbuildinfo
 
-# --- Caches ---
 .tmp/
 temp/
 tmp/
@@ -65,30 +51,24 @@ parcel-cache/
 vite.config.ts.timestamp-*
 vite.config.js.timestamp-*
 
-# --- Babel / Webpack ---
 .cache-loader/
 bower_components/
 .ember-cli
 .sass-cache/
 
-# --- Storybook (if used) ---
 .storybook-out/
 out/
 storybook-static/
 
-# --- Docker (optional) ---
 docker-data/
 .docker/
 **/.dockerignore
 
-# --- Misc (optional) ---
-# SQLite or local DB files (if any)
 *.sqlite
 *.sqlite3
 *.db
 *.db-journal
 
-# --- OS X / Windows extra ---
 .AppleDouble
 .LSOverride
 Icon?
@@ -96,11 +76,9 @@ Ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# --- Images generated during dev (optional) ---
 *.tgz
 *.zip
 
-# --- Monorepo: keep these ignored anywhere ---
 **/.env.local
 **/.env.development.local
 **/.env.test.local

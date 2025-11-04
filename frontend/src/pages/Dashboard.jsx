@@ -11,7 +11,7 @@ const Dashboard = () => {
   useEffect(() => {
     Promise.all([
       api.listEvents(),
-      api.searchCustomers(""), // fetch all customers
+      api.searchCustomers(""), 
     ]).then(([eventsData, customersData]) => {
       setEvents(eventsData);
       setCustomers(customersData);

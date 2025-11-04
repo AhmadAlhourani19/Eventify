@@ -48,9 +48,9 @@ const CheckIns = () => {
           }`}
         >
           {result.success ? (
-            <p>✅ Ticket successfully checked in.</p>
+            <p>Ticket successfully checked in.</p>
           ) : (
-            <p>❌ {result.message}</p>
+            <p>{result.message}</p>
           )}
         </div>
       )}
