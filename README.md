@@ -38,7 +38,7 @@ Start the backend:
 npm run dev
 ```
 
-#Frontend Setup
+## Frontend Setup
 ```bash
 cd frontend
 npm install
@@ -53,5 +53,5 @@ REACT_APP_API_BASE=http://localhost:4000/api
 npm start
 ```
 
-#Author
+## Author
 Ahmad Alhourani
